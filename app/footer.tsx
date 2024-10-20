@@ -1,9 +1,8 @@
 // components/Footer.tsx
 import React from 'react';
-import Image from 'next/image';
+
 import Link from 'next/link'
-import { AiFillAndroid } from "react-icons/ai"; 
-import { AiFillApple } from "react-icons/ai"; 
+
 import { AiFillGithub } from "react-icons/ai"; 
 import { AiFillLinkedin } from "react-icons/ai"; 
 import { AiFillInstagram } from "react-icons/ai"; 
@@ -51,7 +50,7 @@ const Footer: React.FC = () => {
             </div> 
             </div>
             <div>
-                <p className='text-sm border-b border-border pb-9 md:m-9'>E​xness (SC) Ltd ​is a Securities Dealer registered in Seychelles with registration number 8423606-1 and authorised by the Financial Services Authority (FSA) with licence number SD025. E​xness (SC) Ltd is also authorized as an Over-The-Counter Derivatives Provider (ODP) by the Financial Sector Conduct Authority (FSCA) in South Africa. The registered office of E​xness (SC) Ltd is at 9A CT House, 2nd floor, Providence, Mahe, Seychelles. <br /><br />
+                <p className='text-sm border-b border-border pb-9 md:m-9'>Exness (SC) Ltda Securities Dealer registered in Seychelles with registration number 8423606-1 and authorised by the Financial Services Authority (FSA) with licence number SD025. E​xness (SC) Ltd is also authorized as an Over-The-Counter Derivatives Provider (ODP) by the Financial Sector Conduct Authority (FSCA) in South Africa. The registered office of E​xness (SC) Ltd is at 9A CT House, 2nd floor, Providence, Mahe, Seychelles. <br /><br />
 
                 Exness B.V. is a Securities Intermediary registered in Curaçao with registration number 148698(0) and authorised by the Central Bank of Curaçao and Sint Maarten (CBCS) with licence number 0003LSI. The registered office of Exness B.V. is at Emancipatie Boulevard Dominico F. “Don” Martina 31, Curaçao. <br /><br />
 
@@ -77,7 +76,7 @@ const Footer: React.FC = () => {
 
                 ³Spreads may fluctuate and widen due to factors including market volatility, news releases, economic events, when markets open or close, and the type of instruments being traded. <br />
 
-                ⁴Best spreads refers to average or max spreads offered by Exness, excluding agents’ commission for XAUUSD for the first two seconds after high-impact news, from January to May 2024, compared with five other large brokers.</p>
+                ⁴Best spreads refers to average or max spreads offered by Exness, excluding agents commission for XAUUSD for the first two seconds after high-impact news, from January to May 2024, compared with five other large brokers.</p>
             </div>
             <div className='flex justify-between text-sm md:m-9'>
                 <div className='flex'>
